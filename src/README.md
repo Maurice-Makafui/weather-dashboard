@@ -1,4 +1,3 @@
-
 **Achieving the Weather Dashboard Project**
 
 This is a comprehensive guide on how I successfully completed the Weather Dashboard project, utilizing Python, AWS S3, and the OpenWeather API. By following these steps, I learnt how to interact with APIs, set up a Python environment, configure AWS CLI, and handle files with AWS S3.
@@ -117,9 +116,6 @@ o	Weather data is displayed in the terminal and uploaded to the S3 bucket.
 •	Once verified, I emptied the bucket and deleted it to prevent unnecessary charges.
 Lesson Learnt:
 •	Resource Cleanup: I learnt the importance of cleaning up cloud resources (like S3 buckets) after use to avoid unexpected costs. This is an important best practice when working with cloud services.
-
-
-
 
 
 **Summary of Lessons Learnt**
