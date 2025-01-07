@@ -1,9 +1,11 @@
+
 **Achieving the Weather Dashboard Project**
 
 This is a comprehensive guide on how I successfully completed the Weather Dashboard project, utilizing Python, AWS S3, and the OpenWeather API. By following these steps, I learnt how to interact with APIs, set up a Python environment, configure AWS CLI, and handle files with AWS S3.
 
 
-1. **Create an OpenWeather Account and Obtain API Key**
+1.
+##Create an OpenWeather Account and Obtain API Key
 Step:
 •	I visited the OpenWeather website and created an account.
 •	After logging in, I navigated to the API section and generated an API key. This key was used to fetch weather data for different regions.
@@ -12,7 +14,8 @@ Lesson Learnt:
 
 
 
-2. **Set Up My Work Environment in VSCode**
+2.
+##Set Up My Work Environment in VSCode
 Step:
 •	I created a new directory for the project and opened it in VSCode.
 •	Inside the project directory, I created a .env file. This file will store sensitive information like the OpenWeather API key and the AWS S3 bucket name. 
@@ -24,7 +27,10 @@ o	AWS_BUCKET_NAME=unique_bucket_name
 Lesson Learnt:
 •	Environment Setup: I learnt how to use .env files to securely store sensitive data such as API keys. This is a good practice to avoid hardcoding sensitive information in my source code.
 ________________________________________
-3. **Set Up AWS in My Terminal**
+
+
+3. 
+##Set Up AWS in My Terminal
 Step:
 •	I logged into my AWS console and navigated to IAM (Identity and Access Management).
 •	I created a new IAM user and attached the "AdministratorAccess" and "AmazonS3FullAccess" policies.
@@ -34,7 +40,8 @@ Lesson Learnt:
 •	AWS CLI Configuration: I learnt how to configure AWS CLI using IAM credentials. This allows me to interact with AWS services (like S3) directly from my terminal using Python.
 ________________________________________
 
-4. **Set Up My Python Environment**
+4.
+ ##Set Up My Python Environment
 Step:
 •	I downloaded and installed Python on my machine (Windows or Linux, based on my system).
 •	I set up environment variables as needed.
@@ -42,7 +49,11 @@ Lesson Learnt:
 •	Python Setup: I gained experience in setting up a Python environment on my machine, including installing Python and configuring the system for running Python scripts.
 
 ________________________________________
-5. **Folder Structure Setup**
+
+
+5. 
+
+##Folder Structure Setup
 Step:
 •	I organized my project folder structure as follows:
 •	weather-dashboard/
@@ -64,12 +75,13 @@ Step:
 
 
 
-**Lesson Learnt:**
+#Lesson Learnt:
 •	Project Organization: I learnt how to structure a Python project to ensure clarity and maintainability. This also includes using. gitignore to keep sensitive files out of version control.
 
 
 
-6. **Install Required Python Packages**
+6. 
+##Install Required Python Packages
 Step:
 •	I ran the following command to install the packages in requirements.txt: 
 •	python -m pip install -r requirements.txt
@@ -77,7 +89,8 @@ Lesson Learnt:
 •	Dependency Management: I learnt how to manage project dependencies with requirements.txt. This ensures all the required libraries are installed in one go.
 
 
-7. **Write the Script to Fetch and Store Weather Info**
+7. 
+##Write the Script to Fetch and Store Weather Info
 Step:
 •	I imported the required libraries:
 •	import requests
@@ -95,7 +108,9 @@ Lesson Learnt:
 
 
 
-8. **Run the Python Script**
+8. 
+
+##Run the Python Script
 Step:
 •	After writing the script, I navigated to the src folder and ran the following command: 
 •	python weather_dashboard.py
@@ -107,7 +122,9 @@ Lesson Learnt:
 
 
 
-9. **Final Check and Housekeeping**
+9. 
+
+##Final Check and Housekeeping
 Step:
 •	After running the script, the terminal should show: 
 o	The S3 bucket is created successfully.
