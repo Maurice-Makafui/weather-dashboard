@@ -26,10 +26,11 @@ o	AWS_BUCKET_NAME=unique_bucket_name
 
 Lesson Learnt:
 •	Environment Setup: I learnt how to use .env files to securely store sensitive data such as API keys. This is a good practice to avoid hardcoding sensitive information in my source code.
-________________________________________
+
 
 
 3. 
+
 ##Set Up AWS in My Terminal
 Step:
 •	I logged into my AWS console and navigated to IAM (Identity and Access Management).
