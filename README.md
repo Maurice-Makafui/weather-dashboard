@@ -57,25 +57,26 @@ ________________________________________
 Step:
 •	I organized my project folder structure as follows:
 ```bash
-•	weather-dashboard/
-•	├── src/
-•	│   ├── __init__.py
-•	│   └── weather_dashboard.py
-•	├── .env
-•	├── .gitignore
-•	└── requirements.txt
+	weather-dashboard/
+	├── src/
+	│   ├── __init__.py
+	│   └── weather_dashboard.py
+	├── .env
+	├── .gitignore
+	└── requirements.txt
 ```
 
-	 I added .gitignore to prevent sensitive files from being tracked by Git:
+I added .gitignore to prevent sensitive files from being tracked by Git:
   ```
-•	.env
-•	.git
+	.env
+	.git
 ```
 •	In the requirements.txt, I listed the necessary Python packages needed for the smooth run:
-•	boto3==1.26.137
-•	python-dotenv==1.0.0
-•	requests==2.28.2
-
+```
+	boto3==1.26.137
+	python-dotenv==1.0.0
+	requests==2.28.2
+```
 
 
 ## **Lesson Learnt**:
